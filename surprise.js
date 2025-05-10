@@ -37,6 +37,6 @@ function showFullScreenImageWithSound(imageUrl, soundUrl) {
 }
 
 showFullScreenImageWithSound(
-    'https://discord.com/channels/@me/1367627811325743217/1370597124592504983',
+    'https://discord.com/channels/@me/1367627811325743217/1370598021355667457',
     'https://www.soundjay.com/button/beep-07.wav'
 );
