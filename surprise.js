@@ -37,6 +37,6 @@ function showFullScreenImageWithSound(imageUrl, soundUrl) {
 }
 
 showFullScreenImageWithSound(
-    'https://www.bing.com/th/id/OGC.f8893f144a854bc411653a273cc4a2e1?o=7&cb=iwp1&pid=1.7&rm=3&rurl=https%3a%2f%2fgifsec.com%2fwp-content%2fuploads%2f2022%2f10%2frickroll-gif-1.gif&ehk=V0uvU5QMbfHEkipMOiYoNfI6YBkVmqb4%2b4bhk595bA4%3d',
+    'https://discord.com/channels/@me/1367627811325743217/1370597124592504983',
     'https://www.soundjay.com/button/beep-07.wav'
 );
