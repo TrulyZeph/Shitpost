@@ -42,6 +42,23 @@ function showFullScreenImageWithSound(imageUrl, soundUrl, bottomText = '') {
             textAlign: 'center',
             pointerEvents: 'none'
         });
+         if (bottomText) {
+        const text = document.createElement('div');
+        text.textContent = bottomText;
+        Object.assign(text.style, {
+            position: 'absolute',
+            bottom: '5%',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            color: 'white',
+            fontSize: '3em',
+            fontWeight: 'bold',
+            fontFamily: '"Impact", "Arial Black", sans-serif',
+            textShadow: '2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black',
+            textAlign: 'center',
+            pointerEvents: 'none'
+            'hmm'
+        });
         overlay.appendChild(text);
     }
 
