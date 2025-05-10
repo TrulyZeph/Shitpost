@@ -1,4 +1,4 @@
-function showFullScreenImageWithSound(imageUrl, soundUrl) {
+function showFullScreenImageWithSound(imageUrl, soundUrl, bottomText = '') {
     const overlay = document.createElement('div');
     Object.assign(overlay.style, {
         position: 'fixed',
@@ -26,6 +26,25 @@ function showFullScreenImageWithSound(imageUrl, soundUrl) {
         console.warn('Autoplay failed:', err);
     });
 
+    if (bottomText) {
+        const text = document.createElement('div');
+        text.textContent = bottomText;
+        Object.assign(text.style, {
+            position: 'absolute',
+            bottom: '5%',
+            left: '50%',
+            transform: 'translateX(-50%)',
+            color: 'white',
+            fontSize: '3em',
+            fontWeight: 'bold',
+            fontFamily: '"Impact", "Arial Black", sans-serif',
+            textShadow: '2px 2px 0 black, -2px 2px 0 black, 2px -2px 0 black, -2px -2px 0 black',
+            textAlign: 'center',
+            pointerEvents: 'none'
+        });
+        overlay.appendChild(text);
+    }
+
     overlay.appendChild(img);
     document.body.appendChild(overlay);
 
@@ -38,5 +57,6 @@ function showFullScreenImageWithSound(imageUrl, soundUrl) {
 
 showFullScreenImageWithSound(
     'https://c.tenor.com/9v5b6qQJyZcAAAAC/tenor.gif',
-    'https://www.soundjay.com/button/beep-07.wav'
+    'https://www.soundjay.com/button/beep-07.wav',
+    'BRUH MOMENT'
 );
