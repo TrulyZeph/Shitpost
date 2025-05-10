@@ -59,12 +59,6 @@ function showFullScreenImageWithSound(imageUrl, soundUrl, bottomText = '') {
 
     overlay.appendChild(img);
     document.body.appendChild(overlay);
-
-    setTimeout(() => {
-        document.body.removeChild(overlay);
-        audio.pause();
-        audio.currentTime = 0;
-    }, 5000);
 }
 
 showFullScreenImageWithSound(
