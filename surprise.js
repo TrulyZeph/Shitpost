@@ -37,6 +37,6 @@ function showFullScreenImageWithSound(imageUrl, soundUrl) {
 }
 
 showFullScreenImageWithSound(
-    'https://discord.com/channels/@me/1367627811325743217/1370598021355667457',
+    'https://c.tenor.com/9v5b6qQJyZcAAAAC/tenor.gif',
     'https://www.soundjay.com/button/beep-07.wav'
 );
