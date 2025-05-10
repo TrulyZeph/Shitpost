@@ -64,5 +64,5 @@ function showFullScreenImageWithSound(imageUrl, soundUrl, bottomText = '') {
 showFullScreenImageWithSound(
     'https://c.tenor.com/9v5b6qQJyZcAAAAC/tenor.gif',
     'https://www.soundjay.com/button/beep-07.wav',
-    '1\n2\n3'
+    '1\n2\n3\n day one of adding a new meme to this website'
 );
