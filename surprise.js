@@ -64,5 +64,5 @@ function showFullScreenImageWithSound(imageUrl, soundUrl, bottomText = '') {
 showFullScreenImageWithSound(
     'https://c.tenor.com/9v5b6qQJyZcAAAAC/tenor.gif',
     'https://www.soundjay.com/button/beep-07.wav',
-    'BRUH MOMENT\nABSOLUTELY DEVASTATING\nREAL LIFE ERROR 404'
+    '1\n2\n3'
 );
